@@ -8,7 +8,7 @@ st.set_page_config(page_title="AI Goal Tracker", layout="wide")
 
 # ---------- ENV ----------
 
-MONGO_URI = os.getenv("mongodb://localhost:27017/")  # e.g. mongodb+srv://user:pass@cluster.mongodb.net/
+MONGO_URI = "mongodb://localhost:27017/"  # e.g. mongodb+srv://user:pass@cluster.mongodb.net/
 DB_NAME = os.getenv("MONGO_DB", "ai_goal_tracker")
 USER_ID = os.getenv("vishnu", "default_user")
 GROQ_API_KEY = "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"
